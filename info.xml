@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<extension key="com.chabadsuite.batchactivityadd" type="module">
+  <file>batchactivityadd</file>
+  <name>Batch Activity Add</name>
+  <description>Helps to create multiple activities at a time using batch process.</description>
+  <license>AGPL-3.0</license>
+  <maintainer>
+    <author>OSSeed Technologies LLP</author>
+    <email>hello@osseed.com</email>
+  </maintainer>
+  <releaseDate>2019-05-22</releaseDate>
+  <version>1.0</version>
+  <develStage>alpha</develStage>
+  <compatibility>
+    <ver>5.x</ver>
+  </compatibility>
+  <comments>Helps to create multiple activities at a time using batch process.</comments>
+  <civix>
+    <namespace>CRM/Batchactivityadd</namespace>
+  </civix>
+</extension>

@@ -1,0 +1,101 @@
+div.crm-container .label label {
+  font-weight: bold !important;
+}
+
+#printer-friendly {
+  display:none;
+}
+
+.page-civicrm-batch .CRM_Batchactivityadd_Form_Batchactivityadd .crm-form-textarea {
+  width: 80%;
+}
+
+.page-civicrm-batch .CRM_Batchactivityadd_Form_Batchactivityadd table tbody .content select[id^="activity_type_id_"]{
+  max-width: 100%;
+  width: auto;
+  padding: 0 30px 0 4px;
+  font-size: 12px;
+  height:24px !important;
+}
+
+.page-civicrm-batch .CRM_Batchactivityadd_Form_Batchactivityadd table tbody th {
+    font-size: 14px !important;
+}
+
+.page-civicrm-batch .CRM_Batchactivityadd_Form_Batchactivityadd table {
+  table-layout: fixed;
+}
+
+.page-civicrm-batch .CRM_Batchactivityadd_Form_Batchactivityadd table tbody tr th {
+  width: 100px;
+}
+
+.page-civicrm-batch .CRM_Batchactivityadd_Form_Batchactivityadd .taglist {
+  width:100%;
+  padding:0px;
+}
+
+.page-civicrm-batch .CRM_Batchactivityadd_Form_Batchactivityadd table tbody input[id^="duration_"] {
+  width: 95%;
+  padding: 0 4px 0 4px;
+}
+
+
+.page-civicrm-batch .select2-container-multi ul .select2-search-choice {
+  width: 75%;
+}
+
+.select2-drop.select2-drop-active.crm-container .crm-entityref-filters select  {
+  width: auto !important;
+  max-width: 100% !important;
+}
+
+.page-civicrm-batch .CRM_Batchactivityadd_Form_Batchactivityadd .select2-drop .select2-results .crm-entityref-filters select {
+  width: auto !important;
+  max-width: 100% !important;
+}
+
+.page-civicrm-batch .crm-entityref-links a.crm-add-entity.crm-hover-button {
+  font-size: 10px;
+  padding-left: 0px !important;
+}
+
+.page-civicrm-batch .CRM_Batchactivityadd_Form_Batchactivityadd table tbody .content select[id^="engagement_level_"]{
+  padding: 0px 30px 0px 10px;
+}
+
+.page-civicrm-batch .CRM_Batchactivityadd_Form_Batchactivityadd table tbody .content select[id^="status_id_"]{
+  padding: 0 30px 0 10px;
+  font-size: 12px;
+  height:24px !important;
+}
+
+.page-civicrm-batch .select2-container-multi {
+  max-width: 100%;
+}
+
+.page-civicrm-batch .huge.crm-form-text {
+  max-width: 100px !important;
+}
+
+.page-civicrm-batch .crm-form-text.crm-form-time.hasTimeEntry {
+  margin-left: 0;
+  max-width: 55px !important;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.page-civicrm-batch a.crm-hover-button.crm-clear-link {
+  padding-left: 6px !important;
+}
+
+/* Responsive Css */
+@media (max-width: 1200px) {
+  .page-civicrm-batch .huge.crm-form-text{
+    padding:2px 4px;
+  }
+
+  .page-civicrm-batch .CRM_Batchactivityadd_Form_Batchactivityadd table tbody .content select[id^="activity_type_id_"]{
+    padding: 0 20px 0 4px;
+  }
+}

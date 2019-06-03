@@ -2,7 +2,7 @@
 <menu>
   <item>
     <path>civicrm/batch/activity</path>
-    <page_callback>CRM_Batchactivityadd_Form_Batchactivityadd</page_callback>
+    <page_callback>CRM_Batchactivityadd_Form_BatchActivityAdd</page_callback>
     <title>Batch Activities</title>
     <access_arguments>access CiviCRM</access_arguments>
   </item>

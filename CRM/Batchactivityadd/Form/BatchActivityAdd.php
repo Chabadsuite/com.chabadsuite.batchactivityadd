@@ -7,7 +7,7 @@ use CRM_Batchactivityadd_ExtensionUtil as E;
  *
  * @see https://wiki.civicrm.org/confluence/display/CRMDOC/QuickForm+Reference
  */
-class CRM_Batchactivityadd_Form_Batchactivityadd extends CRM_Core_Form {
+class CRM_Batchactivityadd_Form_BatchActivityAdd extends CRM_Core_Form {
   /**
    * @return array
    */

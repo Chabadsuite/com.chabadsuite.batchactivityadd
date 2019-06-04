@@ -7,7 +7,7 @@ div.crm-container .label label {
 }
 
 .page-civicrm-batch .CRM_Batchactivityadd_Form_BatchActivityAdd .crm-form-textarea {
-  width: 80%;
+  width: 85%;
 }
 
 .page-civicrm-batch .CRM_Batchactivityadd_Form_BatchActivityAdd table tbody .content select[id^="activity_type_id_"]{
@@ -19,7 +19,7 @@ div.crm-container .label label {
 }
 
 .page-civicrm-batch .CRM_Batchactivityadd_Form_BatchActivityAdd table tbody th {
-    font-size: 14px !important;
+  font-size: 14px !important;
 }
 
 .page-civicrm-batch .CRM_Batchactivityadd_Form_BatchActivityAdd table {
@@ -28,6 +28,18 @@ div.crm-container .label label {
 
 .page-civicrm-batch .CRM_Batchactivityadd_Form_BatchActivityAdd table tbody tr th {
   width: 100px;
+}
+
+.page-civicrm-batch .CRM_Batchactivityadd_Form_BatchActivityAdd table tbody th:nth-child(5) {
+  width:60px !important;
+}
+
+.page-civicrm-batch .CRM_Batchactivityadd_Form_BatchActivityAdd table tbody th:nth-child(6) {
+  width: 100px !important;
+}
+
+.page-civicrm-batch .CRM_Batchactivityadd_Form_BatchActivityAdd table tbody th:nth-child(7) {
+  width:45px !important;
 }
 
 .page-civicrm-batch .CRM_Batchactivityadd_Form_BatchActivityAdd .taglist {
@@ -92,10 +104,10 @@ div.crm-container .label label {
 /* Responsive Css */
 @media (max-width: 1200px) {
   .page-civicrm-batch .huge.crm-form-text{
-    padding:2px 4px;
+    padding:2px 4px !important;
   }
 
   .page-civicrm-batch .CRM_Batchactivityadd_Form_BatchActivityAdd table tbody .content select[id^="activity_type_id_"]{
-    padding: 0 20px 0 4px;
+    padding: 0 20px 0 4px !important;
   }
 }

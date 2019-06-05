@@ -56,7 +56,7 @@ class CRM_Batchactivityadd_Form_BatchActivityAdd extends CRM_Core_Form {
       }
 
       // Activity Date
-      $this->add('datepicker', 'activity_date_time_' . $i . '_activity', ts('Date'), NULL, FALSE, ['minDate' => time()]);
+      $this->add('datepicker', 'activity_date_time_' . $i . '_activity', ts('Date'), NULL, FALSE, ['minDate' => 0]);
 
       // Duration.
       $this->add('number', 'duration_' . $i . '_activity', ts('Duration (minutes)'), ['class' => 'four', 'min' => 1], FALSE);

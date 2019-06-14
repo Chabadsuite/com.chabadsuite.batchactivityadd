@@ -69,7 +69,7 @@ class CRM_Batchactivityadd_Form_BatchActivityAdd extends CRM_Core_Form {
       $this->add('textarea', 'details_' . $i . '_activity', ts('Details'), "cols=30 rows=2" );
 
       // Tag
-      $tags = civicrm_api3('Tag', 'get', ['sequential' => 1,]);
+      $tags = civicrm_api3('Tag', 'get', ['sequential' => 1, 'options' => ['limit' => 0]]);
       if (!empty($tags['values'])) {
         foreach ($tags['values'] as $keyId => $tagset) {
           $used = explode(',', CRM_Utils_Array::value('used_for', $tagset, ''));
